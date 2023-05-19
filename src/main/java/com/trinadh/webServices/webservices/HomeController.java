@@ -18,6 +18,7 @@ public class HomeController {
 	
 	@GetMapping(path = "/hello-world-bean")
 	public HelloWorldBean helloworldBean() {
+		System.out.println("helloWorldBean");
 		
 		//throw new RuntimeException("some error happened, please contact support ***");
 		
